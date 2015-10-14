@@ -1,0 +1,126 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main-menu {
+	
+	}
+	.main-menu ul {
+		display: none;
+		position: absolute;
+		width: 100%;
+		background-color: #333;
+		z-index: 10;
+	}
+	.main-menu ul li {
+		display: block;
+	}
+	.order_big_button {
+		float: none;
+		text-align: center;
+		padding-top: 70px;
+		padding-bottom: -20px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.top_link {
+		display: none;
+		position: absolute;
+		vertical-align: middle;
+		width: 100%;
+		margin-top: 10px;
+		padding: 11px;
+		background-color: #333;
+		opacity: .9;
+	}
+	.next_button, .prev_button {
+		color: #fff;
+		font-size: 60px;
+		position: absolute;
+		z-index: 10;
+		cursor: pointer;
+		top: 30%;
+	}
+	.prev_button {
+		left: 20px;
+	}
+	.next_button {
+		right: 20px;
+	}
+	#map-canvas, .kontakti {
+		margin: auto;
+		width: 300px;
+		float: none;
+	}
+	.soc_button {
+	display: block;
+	position: relative;
+	bottom: 0px;
+	}
+	.up {
+		display: none;
+	}
+}
+/*Extra for .hookahs*/
+@media only screen and (max-width : 719px) {
+	
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	footer {
+		font-size: 12px;
+	}
+	#map-canvas, .kontakti {
+		margin: auto;
+		width: 270px;
+		float: none;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.top_link {
+		display: block !important;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.main-menu ul {
+		display: block !important;
+	}
+	#map-canvas {
+		width: 600px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.hi-tech, .km {
+		width: 400px;
+	}
+	#map-canvas {
+		width: 800px;
+	}
+}
