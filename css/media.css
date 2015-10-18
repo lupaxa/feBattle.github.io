@@ -6,64 +6,54 @@
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.main-menu {
-	
-	}
-	.main-menu ul {
+	.nav ul {
 		display: none;
 		position: absolute;
+		top: -20px;
+		left: 0px;
 		width: 100%;
-		background-color: #333;
+		background-color: rgba(255,255,255, .5);
 		z-index: 10;
 	}
-	.main-menu ul li {
+	.nav ul {
+		background-color: #000;
+		opacity: 1;
+	}
+	.nav li {
 		display: block;
+		padding-top: 5px;
+		position: relative;
+		right: 30px;
 	}
-	.order_big_button {
-		float: none;
-		text-align: center;
-		padding-top: 70px;
-		padding-bottom: -20px;
+	.nav a {
+		color: #fff;
 	}
+	.nav a:hover {
+		border-bottom: none;
+		color: #33cccc;
+	}
+	.second_section h2 {
+		-margin-top: -70px;
+	}
+	.map_canvas {
+		width: 60%;
+		height: 200px;
+		margin: auto;
+		padding-bottom: 50px;
+	}
+	.sixth_section .feedback {
+		margin-bottom: 20px;
+	}
+	.sixth_section p:first-child {
+    padding-top: 0px;
+}
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-	.top_link {
-		display: none;
-		position: absolute;
-		vertical-align: middle;
-		width: 100%;
-		margin-top: 10px;
-		padding: 11px;
-		background-color: #333;
-		opacity: .9;
-	}
-	.next_button, .prev_button {
-		color: #fff;
-		font-size: 60px;
-		position: absolute;
-		z-index: 10;
-		cursor: pointer;
-		top: 30%;
-	}
-	.prev_button {
-		left: 20px;
-	}
-	.next_button {
-		right: 20px;
-	}
-	#map-canvas, .kontakti {
+	.map_canvas {
+		width: 270px;
+		height: 180px;
 		margin: auto;
-		width: 300px;
-		float: none;
-	}
-	.soc_button {
-	display: block;
-	position: relative;
-	bottom: 0px;
-	}
-	.up {
-		display: none;
 	}
 }
 /*Extra for .hookahs*/
@@ -72,17 +62,8 @@
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	footer {
-		font-size: 12px;
-	}
-	#map-canvas, .kontakti {
-		margin: auto;
-		width: 270px;
-		float: none;
-	}
+
 }
-
-
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 	
@@ -94,33 +75,21 @@
 @media only screen and (min-width : 320px) {
 
 }
-
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 
 }
-
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	.top_link {
-		display: block !important;
-	}
+
 }
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	.main-menu ul {
+	.nav ul {
 		display: block !important;
-	}
-	#map-canvas {
-		width: 600px;
 	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	.hi-tech, .km {
-		width: 400px;
-	}
-	#map-canvas {
-		width: 800px;
-	}
+
 }
