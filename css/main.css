@@ -412,31 +412,72 @@ div#partyInfo {
     color: #33cccc;
     text-decoration: line-through;
 }
-.third_section h3 {
-    text-align: center;
-    text-transform: uppercase;
-    color: #33CCE5;
-    text-decoration: underline;
-}
-.third_section p {
-    font-size: 20px;
-    color: #fff;
-    margin-top: 20px;
-    font-style: italic;
-}
+/*.third_section h3 {*/
+    /*text-align: center;*/
+    /*text-transform: uppercase;*/
+    /*color: #33CCE5;*/
+    /*text-decoration: underline;*/
+/*}*/
+/*.third_section p {*/
+    /*text-align: justify;*/
+    /*font-size: 1em;*/
+    /*color: #fff;*/
+    /*margin-top: 20px;*/
+    /*font-style: italic;*/
+/*}*/
 .third_section img {
     margin: auto;
     padding-top: 18px;
 }
+/*block Denis Shapranov*/
+.about_denis_s .den_sha2 {
+    display: none;
+}
+.about_denis_s:hover .den_sha2 {
+    display: inherit;
+}
+.about_denis_s:hover .denis {
+    z-index: 20;
+    background-color: rgba(1, 1, 1, .5) ;
+    visibility: visible;
+}
+.about_denis_s:hover .den_sha1 {
+    display: none;
+}
+/*Block Lena Vandzelyak*/
+.about_lena .len_van2 {
+    display: none;
+}
+.about_lena:hover .len_van2 {
+    display: inherit;
+}
+.about_lena:hover .lena {
+    visibility: visible;
+}
+.about_lena:hover .len_van1 {
+    display: none;
+}
+
+
+
+
+
 .text_about {
+    border: 1px white solid;
     z-index: 0;
-    margin-top: 10px;
-    height: 22em;
-    width: 33em;
+    visibility: hidden;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 0 0 2em;
     overflow: auto;
     font-family: "GothamProRegular", Helvetica, sans-serif; 
 }
 .text_about h4 {
+    padding: 2em 0 0 0;
     text-align: center;
     color: #33CC9A;
     font-weight: bold;
@@ -446,11 +487,12 @@ div#partyInfo {
     letter-spacing: 1px;
 }
 .text_about p {
+    text-align: center;
     color: #fff;
-    max-width: 100%;
+    max-width: 80%;
 }
 .text_about a {
-    font-size: 40px;
+    font-size: 2em;
     padding: 5px;
 }
 .fa-facebook-square, .fa-linkedin-square {
@@ -460,12 +502,15 @@ div#partyInfo {
     color: #33CC9A;
 }
 .denis, .lena, .jenya, .denisgrabina {
-    display: none;
+
+    color: transparent;
 }
 /*------------Portfolio-------------*/
 .fourth_section {
     font-family: "GothamProRegular", Helvetica, sans-serif;
     background-color: #fff;
+    background: url("../photos/lena1.jpg");
+    background-size: 100%;
     padding-bottom: 20px;
     padding-top: 10px;
 }
