@@ -428,8 +428,9 @@ div#partyInfo {
 .third_section img {
     margin: auto;
     padding-top: 18px;
-}
+  }
 /*block Denis Shapranov*/
+
 .about_denis_s .den_sha2 {
     display: none;
 }
@@ -457,13 +458,30 @@ div#partyInfo {
 .about_lena:hover .len_van1 {
     display: none;
 }
+/*block Denis Grabina*/
 
-
+.about_denis_g .den_gra2 {
+    display: none;
+}
+.about_denis_g:hover .den_gra2 {
+    display: inherit;
+}
+.about_denis_g:hover .denisgrabina {
+    z-index: 20;
+    background-color: rgba(71, 109, 210, 0.73);
+    visibility: visible;
+}
+.about_denis_g:hover .den_gra1 {
+    display: none;
+}
 
 
 
 .text_about {
     border: 1px white solid;
+    max-width: 500px;
+    margin: auto;
+    /*padding-top: 2em;*/
     z-index: 0;
     visibility: hidden;
     position: absolute;
@@ -472,7 +490,6 @@ div#partyInfo {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 0 0 0 2em;
     overflow: auto;
     font-family: "GothamProRegular", Helvetica, sans-serif; 
 }
